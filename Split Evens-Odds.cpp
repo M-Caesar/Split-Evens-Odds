@@ -12,6 +12,7 @@ void intLinkedList::splitEvensOddsList(intLinkedList& evensList,
 {
 	nodeType<int>* current = first;
 
+	//change the if and else statements so that they empty the original list as well
 	while (current != nullptr)
 	{
 		nodeType<int>* nextNode = current->link;
