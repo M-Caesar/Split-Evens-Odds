@@ -31,7 +31,7 @@ void intLinkedList::splitEvensOddsList(intLinkedList& evensList,
 	}
 	first = nullptr;
 }
-
+//I am editing this from my phone
 int main()
 {
 	intLinkedList evens;
@@ -39,6 +39,7 @@ int main()
 	intLinkedList test;
 	test.insertLast(22);
 	test.insertLast(55);
+	test.insertLast(77);
 	test.insertLast(13);
 	test.insertLast(829);
 	test.insertLast(46);
